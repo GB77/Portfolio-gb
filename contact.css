@@ -1,0 +1,206 @@
+body, html {
+  height: 100%;
+  overflow-x: hidden;
+    overflow-y:hidden;
+  margin:0 ;
+    padding:-10px;
+   box-sizing:border-box;
+   border: 1px solid transparent;
+  
+}
+
+
+
+.bg { 
+  
+  background-image: url("mail.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family: 'Courgette', cursive;
+  font-size:21px;
+  margin-bottom:-10px;;
+  overflow:hidden;
+
+
+  
+}
+input[type="text"]
+{
+  font-family: 'Courgette', cursive;
+  font-size:18px;
+}
+
+#form { 
+
+  position: absolute;
+  top: 10%;
+  left:33%;
+  
+}
+
+.envelope { 
+float:right;
+display: none;
+margin-top:80px;
+
+}
+
+.bar { 
+
+  border-radius: 7px;; 
+  
+  height:20px;
+  margin-bottom:30px;
+  padding:6px;
+  position: relative;
+  right:7px;
+   
+}
+
+ #form p {
+
+ font-size:16px;
+ display: inline-block;
+ margin-left: 58px;
+ }
+.text { 
+
+  border-radius: 7px;
+  position: relative;
+  right:7px;
+}
+
+#form textarea { 
+
+  font-family: 'Courgette', cursive;
+  font-size:18px;
+  width:92%;
+  
+}
+
+.goBack { 
+  float:right;
+  padding:9px;
+  border:1px solid #6060FA;
+  border-radius:50%;
+  font-size:14px;
+  text-decoration: none;
+  background-color: #6060FA;
+  color:white;
+  margin:7px;
+}
+
+ a:hover { 
+
+  background-color:#AEAEF5
+}
+
+.button { 
+
+  text-align: center;
+}
+
+.submit { 
+
+  background-color: #F8D057;
+	border-bottom: 5px solid #D1B358;
+  border-color: #D1B358;
+  padding: 10px 30px;
+	border-radius: 10px;
+	font-family: 'Courgette', cursive;
+	font-size: 22px;
+	color: #FFF;
+  text-decoration: none;
+  position: relative;
+  right:10px;
+  
+
+}
+
+.submit:hover{ 
+
+  background-color: #FFFF5C;
+  cursor: pointer;
+}
+#form p { 
+
+
+  position: relative;
+  right:15px;
+  float:right;
+}
+
+
+
+
+
+  
+
+@media  only screen and (min-width : 670px) {
+
+    #form { 
+        
+            position: absolute;
+         
+            left:50%;
+          }
+        
+  .bar { 
+
+    width:105%
+  }
+
+  #form textarea { 
+
+    width:110%;
+  }
+  .submit { 
+    
+      position: relative;
+      left:90px;
+    }
+  
+    #form p { 
+
+      position: relative;
+      left:90px;
+      
+    }
+}
+  @media  only screen and (min-width : 1124px) {
+  
+  
+.envelope{ 
+
+display:block;
+}
+  
+  
+
+}
+@media  only screen and (max-width : 437px) { 
+
+   
+    #form p { 
+        
+       
+        margin:0;
+      
+
+    }
+
+   
+  
+}
+
+@media only screen and (min-width:390px) and (max-width:720px) { 
+
+
+    body{  
+       background-image:url("mail.jpg")
+
+       
+    }
+}
